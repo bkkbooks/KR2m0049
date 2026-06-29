@@ -1,0 +1,168 @@
+canonical_identifier: bkk:krp/KR2m0049/v1
+canonical_location: https://kanripo.org/bkk/KR2m0049/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 欽定康濟錄
+  date: '2015-08-24 22:52:47.953065'
+  source:
+    repository: kanripo
+    path: KR2m0049
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2m0049_000.yaml, hash: 'sha256:14fc23fc30afe7ffdbd4ea3dd823263493cc752486ed1338b2651ec6986089e9'}
+  - {seq: 1, filename: KR2m0049_001.yaml, hash: 'sha256:7998b5becadf4cb0715e46021c19b14f3ff455e785dada8e60565920cf21f264'}
+  - {seq: 2, filename: KR2m0049_002.yaml, hash: 'sha256:d49fc1f985ad3f41323746fe5ce07f4a352754bd2129db4cf4288d80fd45d42b'}
+  - {seq: 3, filename: KR2m0049_003.yaml, hash: 'sha256:b8b07bddcbfda173781ddfc9c0adfd7eea268868a175d41e018dd45ac159dda9'}
+  - {seq: 4, filename: KR2m0049_004.yaml, hash: 'sha256:e14f95cff686a4b2ca7a90ed9cde6ed66fbd55c827c84bf700faf2344cc0cd15'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2m0049_000.markers.yaml, hash: 'sha256:a323d699c2fdf84ef69b3dac545e4215f5c383c2f19092083a0a449f969978af'}
+  - {seq: 1, role: markers, filename: assets/KR2m0049_001.markers.yaml, hash: 'sha256:d26bb1e5aa7bb5f020b4f1d496d5dd451417c0c88c73f06bd12690301e41c0e7'}
+  - {seq: 2, role: markers, filename: assets/KR2m0049_002.markers.yaml, hash: 'sha256:79fc9c3f564338113fea786ef0366d94f104ba5b7c17233f07902b83bb841885'}
+  - {seq: 3, role: markers, filename: assets/KR2m0049_003.markers.yaml, hash: 'sha256:aa649e929f1e5dcba51a4885b11eeaca6e93f532bd3a80f52152e5b6cd711653'}
+  - {seq: 4, role: markers, filename: assets/KR2m0049_004.markers.yaml, hash: 'sha256:5afc6e6301c90cb2b36bc10442cda1bd76c8efe54501feff032159a58506d64e'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2m0049_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 396
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2m0049_WYG_000-4a
+    span:
+    - body
+    - 396
+    - 763
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2m0049_WYG_000-6a
+    span:
+    - body
+    - 763
+    - 1350
+  label: 銜名
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2m0049_WYG_000-10a
+    span:
+    - body
+    - 1350
+    - 1664
+  label: 總目
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2m0049_WYG_000-12a
+    span:
+    - body
+    - 1664
+    - 14815
+  label: 卷之一
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2m0049_WYG_000-57a
+    span:
+    - body
+    - 14815
+    - 30351
+  label: 卷之二
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2m0049_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 25977
+  label: 卷三上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2m0049_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 22408
+  label: 卷三下
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR2m0049_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 13939
+  label: 卷四上
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR2m0049_WYG_004-1a
+    span:
+    - body
+    - 0
+    - 10365
+  label: 卷四下之一
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR2m0049_WYG_004-39a
+    span:
+    - body
+    - 10365
+    - 15036
+  label: 卷四下之二
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR2m0049_WYG_004-56a
+    span:
+    - body
+    - 15036
+    - 19706
+  label: 卷四下之三
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR2m0049_WYG_004-73a
+    span:
+    - body
+    - 19706
+    - 22757
+  label: 卷四下之四
+  type: section
+  level: 1
+hash: sha256:35da37e188c9ec45daa96738e5b28c2489697d1a980656da96eea8232993ec41
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
